@@ -1,0 +1,68 @@
+.vrfy{
+    width: 190px;
+    height: 182px;
+    margin-top: 20px;
+    }
+    .pngpic{
+        width: 970px;
+       margin-left: 230px;
+    
+    
+    }
+    .whythisSARTIE{
+    
+    }
+    .authentic{
+       margin-top: 20px;
+        margin-left: -53px;
+     
+    }
+    .why{
+        margin-left: 450px;
+     
+    }
+    .sartie{
+        height: 41vh;
+        display: flex;
+        justify-content: space-around;
+     
+    }
+
+    .delivrey{
+        width: 170px;
+    height: 162px;
+    margin-top: 20px;
+    
+    }
+    .refund{
+        width: 170px;
+        height: 162px;
+        margin-top: 20px;
+    }
+
+    .SECsartie{
+        margin-top: 20px;
+        height: 41vh;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .return{
+        width: 270px;
+        height: 262px;
+        margin-top: 20px;
+    }
+    .livechat{
+        width: 270px;
+        height: 262px;
+       padding-top: 20px;
+    }
+    .returntext{
+        margin-left: 30px;
+    }
+    .livechattext{
+        margin-left:35px ;
+    }
+    .why_shop_at_sartie{
+        margin-bottom: 58px;
+    }

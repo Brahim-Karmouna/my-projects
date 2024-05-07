@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3f3f3;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.col-md-3 {
+    width: 19%;
+    margin-bottom: 20px;
+}
+
+.product-grid {
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid #e7e7e7;
+    overflow: hidden;
+    position: relative;
+}
+
+.product-grid:hover {
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.product-grid .product-image {
+    position: relative;
+}
+
+.product-grid .product-image img {
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    transition: opacity 1s ease-in-out; /* Adjust the duration here */
+}
+
+.product-grid:hover .product-image img {
+    opacity: 0;
+}
+
+.product-grid .product-image img.second-image {
+    display: none;
+}
+
+.product-grid:hover .product-image img.second-image {
+    display: block;
+    opacity: 1;
+    transition: opacity 1s ease-in-out; /* Adjust the duration here */
+}
+
+.product-grid .product-content {
+    padding: 12px 12px 15px;
+    position: relative;
+}
+
+.product-grid .product-discount-label {
+    color: #fff;
+    background: #78a206;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 5px;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+
+.product-grid .rating {
+    padding: 0;
+    margin: 0 0 8px;
+    list-style: none;
+}
+
+.product-grid .rating li {
+    color: #78a206;
+    font-size: 14px;
+}
+
+.product-grid .title {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 0 15px;
+}
+
+.product-grid .title a {
+    color: #2c2c2c;
+    transition: all 0.3s ease 0s;
+}
+
+.product-grid .title a:hover {
+    color: #78a206;
+}
+
+.product-grid .price {
+    color: #78a206;
+    font-size: 17px;
+    font-weight: 600;
+    display: block;
+    transition: all 0.4s ease-in-out;
+}
+
+.product-grid .price span {
+    color: #999;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+
+.product-grid:hover .price {
+    opacity: 0;
+}
+
+.product-grid .add-to-cart {
+    color: #fff;
+    background-color: #78a206;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 40px;
+    width: 140px;
+    height: 40px;
+    border-radius: 50px;
+    opacity: 0;
+    transform: translateX(-50%);
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transition: all 0.8s ease-out;
+}
+
+.product-grid .add-to-cart:hover {
+    background-color: #2f2f2f;
+}
+
+.product-grid:hover .add-to-cart {
+    opacity: 1;
+    bottom: 8px;
+}

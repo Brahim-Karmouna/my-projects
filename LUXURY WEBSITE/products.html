@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <style>
+
+
+
+        *{
+            margin: 0;
+            padding: 0;
+            text-decoration: none;        }
+            p{
+                color: white;
+            }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href=".css">
+    <link rel="stylesheet" href="menuCss.css">
+    <link rel="stylesheet" href="navCss.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> <!-- Include Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+<link rel="stylesheet" href="footer.css">
+<link rel="stylesheet" href="product_front_card.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sartie luxury stoe</title>
+</head>
+<body >
+
+
+    <header>
+        <!-- NAVBAR HTML CODE -->
+           <div class="navbar">
+               <a style="color: black;" class="logo" href="home.html">SARTIE</a>
+               <ul class="nav-list">
+                   <li class="nav-item"><a href="#" class="nav-link"><span>Men</span></a></li>
+                   <li class="nav-item"><a href="#" class="nav-link"><span>Women</span></a></li>
+                   <li class="nav-item"><a href="#" class="nav-link"><span>Kids</span></a></li>
+                   <li class="nav-item"><a href="#" class="nav-link"><span>Accessories</span></a></li>
+                   <li class="nav-item"><a href="products.html" class="nav-link"><span>Products</span></a></li>
+                   <li class="nav-item">
+                       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+                       
+       <!-- SEARCH BAR -->
+       
+                       <form action="" class="search1">
+                         <input type="search" class="search2" required>
+                         <i class="fa fa-search"></i>
+                         <a href="javascript:void(0)" id="clear-btn"></a>
+                       </form>
+                   </li>
+                   <li class="nav-item">
+                      <a href="signUP.html"> <i  class="fas fa-user user-icon"></i> </a><!-- User icon -->
+                   </li>
+                   <li class="nav-item">
+                  <a href=""><i class="fas fa-shopping-bag bag-icon"></i></a>      <!-- Bag icon -->
+                   </li>
+               </ul>
+           </div>
+       
+           </div>
+       
+           <!-- NAVBAR END -->
+           
+           <div class="content">
+               <!--  -->
+           </div> 
+       </header>
+
+<div class="menu-icon">
+    <button id="menu-button" onclick="toggleMenu()"><i class="fas fa-bars"></i></button>
+</div>
+<div class="menu">
+    <ul>
+        <li><a href="#">GUCCI</a></li>
+        <li><a href="#">LOUISS VUITTON</a></li>
+        <li><a href="#">PRADA</a></li>
+        <li><a href="#">BRAHMIN</a></li>
+        <li><a href="#">DIOR</a></li>
+        <li><a href="#">SUNGLASSES</a></li>
+        <li><a href="#">HANDBAGS</a></li>
+        <li><a href="#"></a></li>
+    </ul>
+</div>
+<br><br><br>
+
+<div class="products_container">
+    <!-- Updated product card HTML with image change on hover -->
+    <div class="row">
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid" onmouseover="changeImage(this)" onmouseout="resetImage(this)">
+                <div class="product-image">
+                    <a href="#" class="image">
+                        <a href="product_page.html">
+                            <img class="pic-1" src="https://backend.yoogiscloset.com/media/catalog/product/5/7/573948_01.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=840&width=630">
+                            <img class="pic-2 second-image" src="https://backend.yoogiscloset.com/media/catalog/product/5/7/573948_02.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=840&width=630">
+                        </a>
+                    </a>
+                    <span class="product-discount-label">-33%</span>
+                    <!-- <ul class="product-links"> ... (unchanged) ... </ul> -->
+                </div>
+                <div class="product-content">
+                    <ul class="rating">
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="far fa-star"></li>
+                        <li class="far fa-star"></li>
+                    </ul>
+                    <h3 class="title"><a href="#"><a href="product_page.html">GUCCI BAG FOR Women</a> </a></h3>
+                    <div class="price"><a href="product_page.html"><span>$1300.00</span> $660.00</a></div>
+                    <a class="add-to-cart" href="product_page.html">buy it now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+
+<!-- END -->
+
+
+
+</div>
+<footer>
+    <div class="footer-column">
+       <span> shopping and ordring</span><br>
+     <a  clhref=""><p>Customer Service</p></a>
+     <a href=""><p>Why Shop with Us?</p></a>
+     <a href=""><p>30 Day Returns</p></a>
+     <a href=""><p>Shipping and Delivery</p></a>
+     <a href=""><p>Order Status</p></a>
+     <a href=""><p>Payment and Ordering</p></a>
+     <a href=""><p>Frequently Asked Questions</p></a>
+     <a href=""><p>Shop All Products</p></a><br>
+    </div>
+  
+    <div class="footer-column">
+        <span> COMPANY</span><br>
+        <a  clhref=""><p>About Us</p></a>
+        <a href=""><p>Who's sartie?</p></a>
+        <a href=""><p>Press</p></a>
+        <a href=""><p>Testimonials</p></a>
+        <a href=""><p>Reseller Partner Program</p></a>
+        <a href=""><p>Contact Us</p></a>
+       
+    </div>
+    <div class="footer-column2">
+        <div class="registration-container">
+            <label style="font-size: medium;" for="email" class="signup-label"><span>Sign  Up  for  Updates</span></label><br>
+            <input type="email" id="email" class="signup-input" placeholder=" your email">
+            <button class="signup-button">Sign Up</button>
+        </div>
+
+    </div>
+       <!-- Social Media Icons -->
+       <ul class="social-icons">
+        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+        <li><a href="#"><i class="fab fa-reddit"></i></a></li>
+        <li><a href="#"><i class="fab fa-tiktok"></i></a></li>
+        <!-- Add more social media icons as needed -->
+    </ul>
+    
+</footer>
+
+
+</body>
+</html>
+<script src="menu.js"></script>
+
+<!-- SCRIPT SEARCH BAR -->
+
+<!-- SCRIPT SEARCH BAR -->
+<script>
+    const clearInput = () => {
+        const input = document.querySelector('form input');
+        input.value = '';
+    };
+
+    const clearBtn = document.getElementById('clear-btn');
+    clearBtn.addEventListener('click', clearInput);
+
+    const searchBar = document.querySelector('form');
+    const searchInput = document.querySelector('form input');
+
+    searchBar.addEventListener('click', function (event) {
+        event.stopPropagation(); // Prevents the click event from propagating to the document
+
+        // If the clicked element is not the input field, toggle the 'clicked' class
+        if (!searchInput.contains(event.target)) {
+            searchBar.classList.toggle('clicked');
+        }
+    });
+
+    document.addEventListener('click', function (event) {
+        if (!searchBar.contains(event.target)) {
+            searchBar.classList.remove('clicked');
+        }
+    });
+</script>
+<!-- SEARCH BAR END -->
+
+
+<!-- HOVER SECOND PICTURRE JS -->
+<script>
+    // Your existing scripts
+
+    function changeImage(product) {
+        const firstImage = product.querySelector('.pic-1');
+        firstImage.style.display = 'none';
+
+        const secondImage = product.querySelector('.pic-2');
+        secondImage.style.display = 'block';
+    }
+
+    function resetImage(product) {
+        const firstImage = product.querySelector('.pic-1');
+        firstImage.style.display = 'block';
+
+        const secondImage = product.querySelector('.pic-2');
+        secondImage.style.display = 'none';
+    }
+</script>
+
+<!-- END -->
+
+
+
+
+      
